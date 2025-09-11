@@ -20,3 +20,7 @@
 5. How could you use a loop variable of a for loop? Is there somewhere in your drawing where something is repeated, but it's slightly different each time? Maybe the same object is repeated in different places, or maybe a similar object is repeated but with different sizes?
 
     # I could make the smile not just a section of a circle but a section where the angle or number of sides (same thing) gets smaller/bigger for more of a curve at the end
+
+6. Sketch your image, take a picture, and add it here!
+
+![](IMG_1887.jpg)
