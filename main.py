@@ -5,6 +5,7 @@ def shape(size, num_sides):
        turtle.forward(size/num_sides)
        turtle.right(360/num_sides)
 
+# head
 turtle.left (90)
 turtle.up()
 turtle.forward (100)
@@ -12,10 +13,12 @@ turtle.down()
 turtle.right (90)
 shape (1000,50)
 
+turtle.left (3)
 turtle.up()
 turtle.right (90)
 turtle.forward (120)
 
+# eyes
 turtle.right (90)
 turtle.forward (30)
 turtle.down()
@@ -27,6 +30,8 @@ turtle.forward (60)
 turtle.left (90)
 turtle.down()
 shape (280,100)
+
+# nose
     
 
 turtle.exitonclick()
