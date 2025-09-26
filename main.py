@@ -4,13 +4,13 @@ def shape(size, num_sides):
     for i in range(num_sides):
        turtle.forward(size/num_sides)
        turtle.right(360/num_sides)
-
 turtle.left (90)
 turtle.up()
 turtle.forward (100)
 turtle.down()
 turtle.right (90)
 shape (1000,50)
+turtle.forward(10)
 
 turtle.up()
 turtle.right (90)
