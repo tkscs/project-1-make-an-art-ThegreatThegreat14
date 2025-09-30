@@ -48,12 +48,25 @@ turtle.left (90)
 turtle.forward (35)
 turtle.down()
 turtle.left (90)
-semi (40, 50)
 def part_shape(num_sides):
     turtle.forward(1)
     turtle.right(360/num_sides)
-for i in range(180, 400, 5):
+for i in range(200, 280, 2):
     part_shape(i)
+turtle.right (29)
+for i in range(180, 450, 5):
+    part_shape(i)
+turtle.right (44)
+for i in range(450, 180, -5):
+    part_shape(i)
+turtle.right (29)
+for i in range(200, 280, 2):
+    part_shape(i)
+
+turtle.up()
+turtle.forward (35)
+
+
     
 turtle.update()
 
