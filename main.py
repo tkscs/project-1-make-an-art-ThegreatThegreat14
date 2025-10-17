@@ -146,6 +146,12 @@ turtle.right (90)
 turtle.forward (60)
 turtle.down()
 
+ #ears
+turtle.up()
+turtle.right (180)
+turtle.forward (60)
+turtle.left (90)
+turtle.left (360/284)
 
     
 turtle.update()
