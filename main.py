@@ -149,10 +149,45 @@ turtle.down()
  #ears
 turtle.up()
 turtle.right (180)
-turtle.forward (60)
+turtle.forward (215)
 turtle.left (90)
-turtle.left (360/284)
 
-    
+turtle.left (3)
+for i in range (50):
+    part_shape (20,-50)
+for i in range (11):
+    part_shape (20,-50)
+turtle.down()
+
+turtle.right (100)
+for i in range (300, 600, 3):
+    part_shape (1.5, i)
+turtle.right (55)
+for i in range (600, 320, -3):
+    part_shape (1.5, i)
+
+turtle.right (180)
+turtle.up()
+turtle.left (360/321)
+for i in np.arange (-320, -600, -3):
+    part_shape (1.5, i)
+turtle.left (55)
+for i in range (-600, -300, 3):
+    part_shape (1.5, i)
+turtle.right (360/600)
+turtle.left (100)
+
+turtle.right (8)
+for i in range (22):
+    part_shape (20,50)
+turtle.down()
+
+turtle.left (100)
+for i in range (-300, -600, -3):
+    part_shape (1.5, i)
+turtle.left (55)
+for i in range (-600, -320, 3):
+    part_shape (1.5, i)
+
 turtle.update()
 turtle.exitonclick()
