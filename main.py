@@ -3,6 +3,7 @@ import numpy as np
 turtle.tracer (0,0)
 
 shinysize = 1
+# changes size of eye shinies and works well from around 0.3 to 1.25
 
 def shape(size, num_sides):
     for i in range(num_sides):
@@ -146,7 +147,24 @@ turtle.right (90)
 turtle.forward (60)
 turtle.down()
 
- #ears
+for i in range (70):
+    part_shape (1, 200)
+turtle.right (180)
+turtle.up()
+for i in range (70):
+    part_shape (1, -200)
+turtle.right (180)
+turtle.down()
+for i in range (70):
+    part_shape (1, -200)
+turtle.right (180)
+turtle.up()
+for i in range (70):
+    part_shape (1, 200)
+turtle.right (180)
+turtle.down()
+
+# ears
 turtle.up()
 turtle.right (180)
 turtle.forward (215)
