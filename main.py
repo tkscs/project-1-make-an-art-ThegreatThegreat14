@@ -4,6 +4,8 @@ turtle.tracer (0,0)
 
 shinysize = 1
 # changes size of eye shinies and works well from around 0.3 to 1.25
+smilesize = 160
+# changes amount of smile and works well from around 140 to 320
 
 def shape(size, num_sides):
     for i in range(num_sides):
@@ -148,19 +150,20 @@ turtle.forward (60)
 turtle.down()
 
 for i in range (70):
-    part_shape (1, 200)
+    part_shape (1, smilesize)
 turtle.right (180)
 turtle.up()
 for i in range (70):
-    part_shape (1, -200)
+    part_shape (1, -smilesize)
 turtle.right (180)
+turtle.left (360/smilesize)
 turtle.down()
 for i in range (70):
-    part_shape (1, -200)
+    part_shape (1, -smilesize)
 turtle.right (180)
 turtle.up()
 for i in range (70):
-    part_shape (1, 200)
+    part_shape (1, smilesize)
 turtle.right (180)
 turtle.down()
 
